@@ -17,10 +17,7 @@ use oapp::{
 use solana_helper::program_id_from_env;
 use state::*;
 
-declare_id!(Pubkey::new_from_array(program_id_from_env!(
-    "OFT_ID",
-    "9S6fwN8gZsr3ikUH38QWPDbLzyJTYcQd5GtrEWzoS2y9"
-)));
+declare_id!("9S6fwN8gZsr3ikUH38QWPDbLzyJTYcQd5GtrEWzoS2y9");
 
 pub const OFT_VERSION: u64 = 1;
 pub const OFT_SDK_VERSION: u64 = 1;
