@@ -19,7 +19,7 @@ use state::*;
 
 declare_id!(Pubkey::new_from_array(program_id_from_env!(
     "OFT_ID",
-    "HRPXLCqspQocTjfcX4rvAPaY9q6Gwb1rrD3xXWrfJWdW"
+    "9S6fwN8gZsr3ikUH38QWPDbLzyJTYcQd5GtrEWzoS2y9"
 )));
 
 pub const OFT_VERSION: u64 = 1;
